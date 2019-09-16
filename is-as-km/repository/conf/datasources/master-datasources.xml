@@ -136,7 +136,7 @@
                     <initialSize></initialSize>
                     <maxWait></maxWait>
 
-                    <dataSourceClassName>com.postgresql.jdbc.jdbc2.optional.PGXADataSource</dataSourceClassName>
+                    <dataSourceClassName>com.postgresql.jdbc.jdbc2.optional.postgresqlXADataSource</dataSourceClassName>
                     <dataSourceProps>
                         <property name="url">jdbc:postgresql://localhost:5432/Test1</property>
                         <property name="user">root</property>
